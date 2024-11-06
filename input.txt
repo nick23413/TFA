@@ -1,0 +1,25 @@
+% var1, var2
+! var3
+$ var4, var5, var6
+
+if var1 > var2 then
+    writeln("var1 is greater")
+else
+    writeln("var2 is greater")
+endif
+
+for i = 1 to 10 step 2
+    writeln(i)
+next
+
+while var3 < 100
+    var3 = var3 + 1
+endwhile
+
+readln(var4)
+
+/* This is a comment */
+
+var5 = var5 * 2
+
+var6 = var6 / 3
