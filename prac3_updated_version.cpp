@@ -8,7 +8,7 @@
 using namespace std;
 
 const unordered_set<string> KEYWORDS = {
-    "dim", "if", "else", "for", "to", "step", "next", "while",
+    "if", "else", "for", "to", "step", "next", "while",
     "readln", "writeln", "true", "false", "%", "!", "$"
 };
 
