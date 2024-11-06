@@ -5,11 +5,7 @@
 #include <unordered_set>
 #include <cctype>
 
-using std::cout;
-using std::ifstream;
-using std::string;
-using std::vector;
-using std::unordered_set;
+using namespace std;
 
 const unordered_set<string> KEYWORDS = {
     "dim", "if", "else", "for", "to", "step", "next", "while",
