@@ -1,18 +1,35 @@
-% var1, var2
-! var3
-$ var4, var5, var6
-for i := 1 to 10 step 2
-    writeln(i)
+{
+% a, b, c, d, i
+begin
+    a := 5 + 5;
+    b := 1010B;
+    c := 16ADH;
+    d := 23 + a + b
+end
+
+! x, y, z
+x := 3.14
+y := .75
+z := 12.35E+3
+
+$ t, f
+t := true
+f := false
+
+if ((a == b) ||  (b == c))
+    if (!t) /* some comment */
+        writeln z
+    else
+        writeln x
+else
+    a := a + 1
+
+for i := 0 to i < 10 step 1
+    readln a
 next
 
-while var3 < 100 || var1 := !var2
-    var3 := var3 + 1
-endwhile
-
-readln(var4)
-
-/* This is a comment */
-
-var5 := var5 * 2
-
-var6 := var6 / 3
+a := 0
+while (a != 10)
+    a := a + 1
+    writeln a, b
+}
